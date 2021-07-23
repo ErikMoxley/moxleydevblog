@@ -1,8 +1,9 @@
 ---
 title: 'Test Post'
-date: 'July 23 2021'
+date: 'July 15 2021'
 excerpt: 'This is the excerpt'
 cover_image: '/images/posts/img1.jpg'
+author: 'Erik Moxley'
 ---
 
 ##Heading Two

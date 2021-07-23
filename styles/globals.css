@@ -6,6 +6,10 @@
   padding: 0;
 }
 
+html {
+  overflow-y: scroll;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
 }
@@ -37,7 +41,7 @@ header a {
 }
 
 .container {
-  max-width: 768px;
+  max-width: 750px;
   margin: auto;
   overflow: auto;
   padding: 0 10px;
@@ -72,30 +76,30 @@ header a {
 
 .posts {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
   gap: 30px;
   margin-top: 30px;
 }
 
 .card {
   padding: 15px;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .card-page {
   padding: 15px 30px;
+  margin-bottom: 10px;
 }
 
 .post-title {
-  margin: 10px 0;
+  margin: 20px 0;
 }
 
-.post-date {
+/* .post-date {
   background: #f4f4f4;
   margin-bottom: 20px;
   padding: 3px 10px;
-}
+} */
 
 .post-body ul,
 ol {
@@ -112,8 +116,41 @@ ol {
   line-height: 2.3;
 }
 
-@media (max-width: 500px) {
+/* @media (max-width: 500px) {
   .posts {
     grid-template-columns: 1fr;
   }
+} */
+
+.card-text {
+  display: inline-block;
+  vertical-align: top;
+  width: 60%;
+}
+
+.card-text h1 {
+  font-size: 3em;
+}
+
+.card-image {
+  display: inline-block;
+  width: 40%;
+  @media (max-width: 620px) {
+    width: 100%;
+  }
+}
+
+.author-image {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.author-section {
+  display: flex;
+  align-items:center;
+}
+
+.author-text {
+  padding-left: 10px;
 }
