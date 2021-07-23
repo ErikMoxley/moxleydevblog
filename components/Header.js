@@ -5,7 +5,7 @@ export default function Header() {
     <header>
       <div className='navigation'>
         <Link href='/' passHref alt=''>
-          <h2>Medium Clone</h2>
+          <h2><span className='header-title'>Medium Clone</span></h2>
         </Link>
       </div>
     </header>
