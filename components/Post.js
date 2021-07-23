@@ -10,7 +10,7 @@ export default function Post({ post }) {
           <div className='author-section'><Image className='author-image' src={profilePic} alt="Picture of the author" 
                   width={20}
                   height={20}/>
-                  <span class='author-text'>{post.frontmatter.author}</span></div>
+                  <span className='author-text'>{post.frontmatter.author}</span></div>
               <h1>{post.frontmatter.title}</h1>
             <p>{post.frontmatter.excerpt}</p>
           </a>
