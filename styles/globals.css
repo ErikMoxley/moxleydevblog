@@ -30,6 +30,32 @@ img {
   border-radius: 10px;
 }
 
+.scrolling-active{
+  background-color: #fff;
+  box-shadow: 0 3px 1rem rgba(0,0,0,.1);
+}
+
+.scrolling-active .nav{
+  height: 6.6rem;
+}
+
+.scrolling-active .nav a{
+  color: #313131;
+}
+
+.scrolling-active #nav-cta{
+  background-color: #313131;
+  color: #fff;
+}
+
+.scrolling-active #nav-cta:hover{
+  background-color: #151515;
+}
+
+.scrolling-active .nav-link::after{
+  background-color: #313131;
+}
+
 header {
   background: rgb(196, 226, 255);
   color: rgb(0, 0, 0);
@@ -49,12 +75,12 @@ header h2{
   letter-spacing:-0.06cm;
 }
 
-.header-title {
-  cursor: pointer;
-}
-
 header a {
   color: rgb(0, 0, 0);
+}
+
+.header-title {
+  cursor: pointer;
 }
 
 .container {
@@ -95,6 +121,8 @@ header a {
   line-height: 2cm;
   letter-spacing:-0.08cm;
   padding-right: 650px;
+  transition: ease all .5s;
+
 }
 
 @media (max-width: 1300px) {
@@ -215,6 +243,7 @@ ol {
 .card-image {
   display: inline-block;
   width: 40%;
+  transition: ease all .5s;
 }
 @media (max-width: 850px) {
   .card-image {
