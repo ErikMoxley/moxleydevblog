@@ -83,12 +83,12 @@ header a {
   cursor: pointer;
 }
 
-.container {
+/* .container {
   max-width: 750px;
   margin: auto;
   overflow: auto;
   padding: 80px 10px;
-}
+} */
 
 .navigation {
   max-width: 750px;
@@ -298,4 +298,28 @@ li a {
   float: right;
   cursor: pointer;
   padding: 10px 10px;
+}
+
+.container {
+  width: 30%;
+  background: aqua;
+  margin: auto;
+}
+
+.content {
+  padding-top: 90px;
+  width: 80%;
+  background: red;
+  float: left;
+}
+
+.footer {
+  padding-top: 100px;
+  height: 500px;
+  background: black;
+}
+
+.footer h2 {
+padding: 10px;
+margin-left: 40px;
 }

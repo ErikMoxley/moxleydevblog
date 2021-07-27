@@ -14,11 +14,11 @@ export default function Footer() {
         <h2><span>Privacy</span></h2>
         </Link></li>
         <li>
-        <Link href='/about' passHref alt=''>
+        <Link href='/' passHref alt=''>
         <h2><span>Terms</span></h2>
         </Link></li>
         <li>
-        <Link href='/' passHref alt=''>
+        <Link href='/about' passHref alt=''>
         <h2><span>About</span></h2>
         </Link></li>
       </div>

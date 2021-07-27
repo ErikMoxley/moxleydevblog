@@ -1,16 +1,19 @@
 import Header from '../components/Header'
 // import HeaderTop from '../components/HeaderTop'
 import '../styles/globals.css'
+import Footer from '../components/Footer'
 
 function MyApp({ Component, pageProps }) {
   return (
     <>
       <Header />
-      {/* <HeaderTop /> */}
-      <main className='container'>
+      <div className='container'>
+        <div className='content'>
         <Component {...pageProps} />
-      </main>
-    </>
+        </div>
+      <Footer/>
+      </div>
+      </>
   )
 }
 

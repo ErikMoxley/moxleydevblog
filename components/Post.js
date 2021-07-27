@@ -4,6 +4,7 @@ import profilePic from '../public/images/newprofile.png'
 
 export default function Post({ post }) {
   return (
+    <>
     <div className='card'>
       <div className='card-text'>
         <Link href={`/blog/${post.slug}`}><a>
@@ -22,6 +23,6 @@ export default function Post({ post }) {
           <img src={post.frontmatter.cover_image} alt='' />
      </div></a></Link>
     </div>
-
+</>
   )
 }
