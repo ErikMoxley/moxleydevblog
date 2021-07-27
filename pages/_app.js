@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }) {
         <div className='content'>
         <Component {...pageProps} />
         </div>
-      <Footer/>
+      <Footer id='footer'/>
       </div>
       </>
   )

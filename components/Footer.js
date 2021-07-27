@@ -1,10 +1,15 @@
 import Link from 'next/link'
+import Image from 'next/image'
+import profilePic from '../public/images/newprofile.png'
 
 export default function Footer() {
   return (
     <footer className='footer'>
       <ul>
-      <div>
+        <span className='profile-image'>
+      <Image className='author-image' src={profilePic} alt="Picture of the author" 
+                  width={100}
+                  height={100}/></span>
         <li>
         <Link href='/' passHref alt=''>
         <h2><span>Blog</span></h2>
@@ -21,7 +26,6 @@ export default function Footer() {
         <Link href='/about' passHref alt=''>
         <h2><span>About</span></h2>
         </Link></li>
-      </div>
       </ul>
     </footer>
   )
