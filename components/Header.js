@@ -9,6 +9,7 @@ export default function Header() {
         <Link href='/' passHref alt=''>
         <h2><span className='header-title'>Erik Moxley</span></h2>
         </Link></li>
+        <span className='header-links'>
         <li>
         <Link href='/contact' passHref alt=''>
         <h2 className='header-contact'><span>Contact</span></h2>
@@ -20,7 +21,7 @@ export default function Header() {
         <li>
         <Link href='/' passHref alt=''>
         <h2 className='header-blog'><span>Blog</span></h2>
-        </Link></li>
+        </Link></li></span>
       </div>
       </ul>
     </header>

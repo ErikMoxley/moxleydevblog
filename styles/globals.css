@@ -140,17 +140,24 @@ header a {
     padding-left: 100px;
     transition: ease all .5s;
   }}
-  @media (max-width: 575.98px) {
+  @media (max-width: 700px) {
     .header-title {
-      padding-left: 10px;
+      padding-left: 50px;
     }}
-
+    @media (max-width: 550px) {
+      .header-title {
+        padding-left: 10px;
+      }}
 @media (max-width: 450px) {
   .navigation h2 {
     font-size: 1.1em;
     letter-spacing: -0.04cm;
     padding-left: 0;
   }
+}
+
+.header-links {
+  font-size: 0.7em;
 }
 
 .btn {
@@ -274,10 +281,6 @@ ol {
   padding-left: 30px;
 }
 
-.about-container {
-  padding-top: 50px;
-}
-
 ul {
   list-style-type: none;
   margin: 0;
@@ -294,7 +297,7 @@ li a {
 }
 
 .header-about, .header-blog, .header-contact {
-  margin-top: -47px;
+  margin-top: -42px;
   float: right;
   cursor: pointer;
   padding: 10px 10px;
@@ -365,6 +368,8 @@ li a {
 .footer {  
   padding-top: 100px;
   height: 500px;
+  font-family: 'Noto Serif JP', serif;
+  letter-spacing:-0.06cm;
   /* background: black; */
 }
 

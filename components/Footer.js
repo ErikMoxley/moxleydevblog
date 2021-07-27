@@ -19,7 +19,7 @@ export default function Footer() {
         <h2><span>Privacy</span></h2>
         </Link></li>
         <li>
-        <Link href='/' passHref alt=''>
+        <Link href='/terms' passHref alt=''>
         <h2><span>Terms</span></h2>
         </Link></li>
         <li>
