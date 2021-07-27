@@ -11,20 +11,16 @@ export default function Footer() {
                   width={100}
                   height={100}/></span>
         <li>
-        <Link href='/' passHref alt=''>
-        <h2><span>Blog</span></h2>
+        <Link href='/contact' passHref alt=''>
+        <h2>Contact</h2>
         </Link></li>
         <li>
         <Link href='/privacy' passHref alt=''>
-        <h2><span>Privacy</span></h2>
+        <h2>Privacy</h2>
         </Link></li>
         <li>
         <Link href='/terms' passHref alt=''>
-        <h2><span>Terms</span></h2>
-        </Link></li>
-        <li>
-        <Link href='/about' passHref alt=''>
-        <h2><span>About</span></h2>
+        <h2>Terms</h2>
         </Link></li>
       </ul>
     </footer>
