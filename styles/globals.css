@@ -68,7 +68,7 @@ header {
   z-index: 99;
 }
 
-header h2{
+header h2 {
   font-family: 'Noto Serif JP', serif;
   font-size: 2em;
   font-weight: 600;
@@ -87,13 +87,14 @@ header a {
   max-width: 750px;
   margin: auto;
   overflow: auto;
-  padding: 0 10px;
+  padding: 80px 10px;
 }
 
 .navigation {
-  max-width: 1300px;
+  max-width: 750px;
   margin: auto;
   padding: 0 10px;
+  display: block;
 }
 
 .header-container {
@@ -188,7 +189,7 @@ header a {
 .posts {
   display: grid;
   gap: 30px;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .card {
@@ -271,4 +272,30 @@ ol {
 
 .author-image {
   border-radius: 50%;
+}
+
+.about-container {
+  padding-top: 200px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.header-about, .header-blog, .header-contact {
+  margin-top: -55px;
+  float: right;
+  cursor: pointer;
+  padding: 10px 10px;
 }
