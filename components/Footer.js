@@ -15,7 +15,7 @@ export default function Footer() {
         <h2><span>Blog</span></h2>
         </Link></li>
         <li>
-        <Link href='/contact' passHref alt=''>
+        <Link href='/privacy' passHref alt=''>
         <h2><span>Privacy</span></h2>
         </Link></li>
         <li>
