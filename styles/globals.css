@@ -117,8 +117,8 @@ header h2 {
       }}
 @media (max-width: 450px) {
   .navigation h2, a{
-    font-size: 1.5em;
-    letter-spacing: -0.07cm;
+    font-size: 1.6em;
+    letter-spacing: -0.05cm;
     padding-left: 0;
   }
 }
@@ -168,6 +168,10 @@ header h2 {
   padding: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
+.card p {
+  font-size: 0.4cm;
+  letter-spacing: 0.01cm;
+}
 
 .card-page {
   padding: 15px 30px;
@@ -201,7 +205,7 @@ ol {
 
 .card-text h1 {
   padding-top: 10px;
-  font-size: 1.5em;
+  font-size: 1.4em;
   font-weight: 700;
   letter-spacing:-0.05cm;
 }
