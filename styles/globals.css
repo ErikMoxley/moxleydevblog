@@ -106,8 +106,13 @@ header h2 {
   .header-links h2, a{
     font-size: 16px;
     letter-spacing: -0.05cm;
-    padding: 8px;
+    padding-left: 0;
     transition: ease all .5s;
+  }
+}
+@media (max-width: 450px) {
+  .header-links h2{
+    padding: 10px;
   }
 }
 
