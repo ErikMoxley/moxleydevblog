@@ -106,7 +106,7 @@ header h2 {
   .header-links h2, a{
     font-size: 16px;
     letter-spacing: -0.05cm;
-    padding-left: 0;
+    padding: 8px;
     transition: ease all .5s;
   }
 }
