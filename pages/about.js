@@ -15,14 +15,14 @@ const About = () => {
                                 towards expressing my passions and creativity. My back has always been
                                 against the wall my entire life, and the desire to problem solve, help
                                 people and show everyone that caring is my greatest strength will be all
-                                of the motivation I'll have along the way.</p>
+                                of the motivation I will have along the way.</p>
                             <p> &nbsp;&nbsp;&nbsp;My resume is filled with years of management and leadership experience
                                 in a Pharmacy and Retail setting. Current languages, tools and
                                 technologies I use are HTML5, CSS3, Sass, Javascript, Bootstrap,
                                 GatsbyJS, ReactJS, Git, GitHub, Command Line/Powershell
                                 with some exposure to Jquery, NodeJS, MongoDB, some backend development.
                                 I currently deploy my web projects with GH-Pages and Netlify. My next
-                                steps are to explore uses of different API's and become well rounded in
+                                steps are to explore uses of different API&apos;s and become well rounded in
                                 full-stack development in the near future.</p>
       </div>
 

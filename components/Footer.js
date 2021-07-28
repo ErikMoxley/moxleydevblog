@@ -23,8 +23,8 @@ export default function Footer() {
         <h2>Terms</h2>
         </Link></li>
         <li>
-        <p class="copyright"><h4>
-        &nbsp;&nbsp;Copyright &copy; 2021 ErikMoxley</h4></p></li>
+        <p className="copyright"><h4>
+        &nbsp;&nbsp;Copyright &copy; <script>document.write(new Date().getFullYear())</script> ErikMoxley</h4></p></li>
       </ul>
     </footer>
   )
