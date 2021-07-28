@@ -16,7 +16,7 @@ body {
 }
 
 p {
-  margin: 15px 0;
+  margin: 10px 0;
   line-height: 1.8;
 }
 
@@ -30,23 +30,6 @@ img {
   border-radius: 10px;
 }
 
-.scrolling-active{
-  background-color: #fff;
-  box-shadow: 0 3px 1rem rgba(0,0,0,.1);
-}
-
-.scrolling-active .nav{
-  height: 6.6rem;
-}
-
-.scrolling-active .nav a{
-  color: #313131;
-}
-
-.scrolling-active #nav-cta{
-  background-color: #313131;
-  color: #fff;
-}
 
 .scrolling-active #nav-cta:hover{
   background-color: #151515;
@@ -57,8 +40,8 @@ img {
 }
 
 header {
-  background: rgb(196, 226, 255);
-  color: rgb(0, 0, 0);
+  background: rgb(18, 70, 90);
+  color: rgb(255, 255, 255);
   padding: 15px;
   width: 100%;
   height: 75px;
@@ -75,63 +58,61 @@ header h2 {
   letter-spacing:-0.06cm;
 }
 
-.navigation {
-  max-width: 750px;
-  margin: auto;
-  padding: 0 10px;
-  display: block;
-}
-
-.navigation h2 {
+.nav-ul {
   font-family: 'Noto Serif JP', serif;
-  font-size: 2.40em;
+  font-size: 1.00em;
   font-weight: 550;
   line-height: 1cm;
   letter-spacing:-0.08cm;
   transition: ease all .5s;
+  list-style:none;
+  margin:0;
+  padding:0;
+  text-align:center;
 }
 
-@media (max-width: 900px) {
-  .navigation h2 {
-    font-size: 2em;
-  }
+.nav-li {
+  display:inline;
 }
-@media (max-width: 700px) {
-  .navigation h2 {
-    font-size: 1.4em;
-    letter-spacing: -0.06cm;
-  }
+
+.header-a {
+  color:rgb(255, 255, 255);
+  display:inline-block;
+  padding: 8px;
 }
-@media (max-width: 900px) {
-  .header-title {
-    padding-left: 100px;
-    transition: ease all .5s;
-  }}
-  @media (max-width: 700px) {
-    .header-title {
-      padding-left: 50px;
-    }}
-    @media (max-width: 550px) {
-      .header-title {
-        padding-left: 10px;
-      }}
-@media (max-width: 450px) {
-  .navigation h2, a{
-    font-size: 1.6em;
-    letter-spacing: -0.05cm;
-    padding-left: 0;
-  }
+.header-a:hover {
+  color:rgb(0, 0, 0);
 }
 
 .header-links {
   font-size: 0.7em;
-  color: #333;
   cursor: pointer;
+}
+
+.header-links h2:hover {
+  background: rgb(185, 185, 185);
+  transition-duration: 0.4s;
+}
+
+@media (max-width: 650px) {
+  .header-links h2, a{
+    font-size: 18px;
+    letter-spacing: -0.05cm;
+    padding-left: 0;
+    transition: ease all .5s;
+  }
+}
+@media (max-width: 450px) {
+  .header-links h2, a{
+    font-size: 16px;
+    letter-spacing: -0.05cm;
+    padding-left: 0;
+    transition: ease all .5s;
+  }
 }
 
 .btn {
   display: inline-block;
-  background: steelblue;
   color: #fff;
   border: none;
   padding: 8px 16px;
@@ -140,6 +121,8 @@ header h2 {
   text-decoration: none;
   font-size: 15px;
   font-family: inherit;
+  font-weight: 600;
+  letter-spacing: 0.01cm;
 }
 
 .btn:focus {
@@ -182,21 +165,6 @@ header h2 {
   margin: 20px 0;
 }
 
-.post-body ul,
-ol {
-  font-size: 110%;
-  line-height: 2.3;
-  font-weight: bold;
-  margin: 10px 0;
-}
-
-.post-body pre {
-  background: #f4f4f4;
-  padding: 20px;
-  margin: 20px 0;
-  line-height: 2.3;
-}
-
 .card-text {
   display: inline-block;
   vertical-align: top;
@@ -218,7 +186,7 @@ ol {
 @media (max-width: 850px) {
   .card-image {
     width: 40%;
-    padding-top: 50px;
+    padding-top: 10%;
   }
 }
 
@@ -245,20 +213,6 @@ ol {
 
 .profile-image{
   padding-left: 30px;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-.header-a {
-  margin-top: -47px;
-  float: right;
-  cursor: pointer;
-  padding: 10px;
 }
 
 .container {
@@ -303,8 +257,10 @@ ul {
      @media only screen and (max-width : 575.98px) {
       .container {
         width: 100%;
-        padding-left: 0px;
-        margin-right: -30px;
+        padding-left: 10px;
+        padding-right: 0px;
+        margin: 0;
+        font-size: 0.3cm;
        }}
 
 .content {
@@ -313,10 +269,6 @@ ul {
   /* background: red; */
   float: left;
 }
-@media only screen and (max-width : 1300px) {
-  .content {
-    width: 80%;
-   }}
 
    @media only screen and (max-width : 700px) {
     .content {
@@ -324,23 +276,38 @@ ul {
      }}
 
 .footer {  
+  flex-grow: 1;
   padding-top: 100px;
-  height: 500px;
   font-family: 'Noto Serif JP', serif;
   font-size: 0.3cm;
   letter-spacing:-0.03cm;
+  font-weight: 100;
+  /* background-color: rgb(109, 109, 109); */
   color: #333;
-  /* background: black; */
 }
 
 .footer h2 {
 padding: 10px;
-margin-left: 35px;
 cursor: pointer;
+text-align: center;
+}
+
+.footer ul, li {
+  list-style:none;
 }
 
 @media only screen and (max-width : 991.98px) {
   .footer {
       display: none;
    }
+}
+
+.about-container {
+  padding: 50px;
+  background-color: rgb(238, 238, 238);
+}
+
+.copyright {
+  font-size: 10px;
+  text-align: center;
 }

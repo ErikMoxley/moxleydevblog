@@ -3,30 +3,23 @@ import Link from 'next/link'
 export default function Header() {
   return (
     <header>
-      <ul>
-      <div className='navigation'>
-        <li>
-        <Link href='/' passHref alt=''>
-        <h2><span className='header-links'>Erik Moxley</span></h2>
-        </Link></li>
+      <ul className='nav-ul'>
         <span className='header-links'>
-        {/* <li>
-        <a href='https://www.erikmoxley.com/' passHref alt='' target="_blank" rel="noopener noreferrer">
-        <h2 className='header-a'>|&nbsp;&nbsp;&nbsp;Website</h2>
-        </a></li> */}
-        <li>
-        <Link href='/about' passHref alt=''>
-        <h2 className='header-a'><span>About</span></h2>
-        </Link></li>
-        <li>
-        <Link href='/personal' passHref alt=''>
-        <h2 className='header-a'><span>Personal Blog</span></h2>
-        </Link></li>
-        <li>
+        <li className='nav-li'>
         <Link href='/' passHref alt=''>
-        <h2 className='header-a'><span>Dev Blog</span></h2>
-        </Link></li></span>
-      </div>
+        <h2 className='header-a'>Dev Blog</h2>
+        </Link></li>
+        <li className='nav-li'>
+        <Link href='/personal' passHref alt=''>
+        <h2 className='header-a'>Personal Blog</h2>
+        </Link></li>
+        <li className='nav-li'>
+        <Link href='/about' passHref alt=''>
+        <h2 className='header-a'>About</h2>
+        </Link></li>
+        <a href='https://www.erikmoxley.com/' passHref alt='' target="_blank" rel="noopener noreferrer">
+        <h2 className='header-a'>Website</h2>
+        </a></span>
       </ul>
     </header>
   )

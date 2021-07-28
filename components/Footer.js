@@ -22,6 +22,9 @@ export default function Footer() {
         <Link href='/terms' passHref alt=''>
         <h2>Terms</h2>
         </Link></li>
+        <li>
+        <p class="copyright"><h4>
+        &nbsp;&nbsp;Copyright &copy; 2021 ErikMoxley</h4></p></li>
       </ul>
     </footer>
   )
