@@ -16,11 +16,11 @@ export default function Header() {
         </a></li> */}
         <li>
         <Link href='/about' passHref alt=''>
-        <h2 className='header-a'><span>|&nbsp;&nbsp;&nbsp;About</span></h2>
+        <h2 className='header-a'><span>About</span></h2>
         </Link></li>
         <li>
         <Link href='/personal' passHref alt=''>
-        <h2 className='header-a'><span>|&nbsp;&nbsp;&nbsp;Personal Blog</span></h2>
+        <h2 className='header-a'><span>Personal Blog</span></h2>
         </Link></li>
         <li>
         <Link href='/' passHref alt=''>

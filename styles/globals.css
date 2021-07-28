@@ -117,8 +117,8 @@ header h2 {
       }}
 @media (max-width: 450px) {
   .navigation h2, a{
-    font-size: 1.1em;
-    letter-spacing: -0.04cm;
+    font-size: 1.5em;
+    letter-spacing: -0.07cm;
     padding-left: 0;
   }
 }
@@ -256,12 +256,6 @@ ul {
   cursor: pointer;
   padding: 10px;
 }
-
-@media only screen and (max-width : 700px) {
-  .header-a {
-    margin-top: -47px;
-   }}
-
 
 .container {
   width: 30%;
