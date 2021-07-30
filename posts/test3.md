@@ -1,8 +1,8 @@
 ---
-title: 'Test Post 3'
-date: 'July 17 2021'
+title: 'Testing out this blog post with a longer title'
+date: 'July 20 2021'
 excerpt: 'This is the excerpt'
-cover_image: '/images/posts/img3.jpg'
+cover_image: '/images/posts/img6.jpg'
 author: 'Erik Moxley'
 ---
 
