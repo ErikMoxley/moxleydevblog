@@ -2,7 +2,7 @@ import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
 import Head from 'next/head'
-import Post2 from '../components/Post2'
+import Post from '../components/Post'
 import { sortByDate } from '../utils'
 
 export default function Personal({ posts }) {
@@ -12,9 +12,9 @@ export default function Personal({ posts }) {
         <title>Erik Moxley | Personal Blog</title>
       </Head>
 
-      <div className='personal'>
+      <div className='posts'>
         {posts.map((post, index) => (
-          <Post2 key={index} post={post} />
+          <Post key={index} post={post} />
         ))}
       </div>
     </div>
@@ -23,7 +23,7 @@ export default function Personal({ posts }) {
 
 export async function getStaticProps() {
   // Get files from the posts dir
-  const files = fs.readdirSync(path.join('personal'))
+  const files = fs.readdirSync(path.join('posts'))
 
   // Get slug and frontmatter from posts
   const posts = files.map((filename) => {
@@ -32,7 +32,7 @@ export async function getStaticProps() {
 
     // Get frontmatter
     const markdownWithMeta = fs.readFileSync(
-      path.join('personal', filename),
+      path.join('posts', filename),
       'utf-8'
     )
 

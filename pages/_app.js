@@ -1,5 +1,4 @@
 import Header from '../components/Header'
-// import HeaderTop from '../components/HeaderTop'
 import '../styles/globals.css'
 import Footer from '../components/Footer'
 
