@@ -9,13 +9,13 @@ export default function Header() {
         <Link href='/personal' passHref alt=''>
         <h2 className='header-a'>Blog</h2>
         </Link></li>
-        <a href='https://moxley.hashnode.dev/' passHref alt='' target="_blank" rel="noopener noreferrer">
-        <h2 className='header-a'>Hashnode</h2>
-        </a>
         <li className='nav-li'>
         <Link href='/about' passHref alt=''>
         <h2 className='header-a'>About</h2>
         </Link></li>
+        <a href='https://moxley.hashnode.dev/' passHref alt='' target="_blank" rel="noopener noreferrer">
+        <h2 className='header-a'>Hashnode</h2>
+        </a>
         <a href='https://www.erikmoxley.com/' passHref alt='' target="_blank" rel="noopener noreferrer">
         <h2 className='header-a'>Website</h2>
         </a>
