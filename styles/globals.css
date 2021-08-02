@@ -230,6 +230,7 @@ header h2 {
   margin: auto;
   transition: ease all .5s;
 }
+
 @media only screen and (max-width : 2200px) {
   .container {
     width: 35%;
@@ -277,6 +278,7 @@ header h2 {
   width: 80%;
   /* background: red; */
   float: left;
+  padding-bottom: 1.5rem;
 }
 
    @media only screen and (max-width : 700px) {
@@ -349,4 +351,20 @@ text-align: center;
 
 .brand-icons {
   padding: 1px;
+}
+
+.footer-bottom {
+  font-family: 'Noto Serif JP', serif;
+  font-size: 0.3cm;
+  letter-spacing:-0.03cm;
+  clear: both;
+  position: relative;
+  width: 80%;
+  height: 150px;
+  margin-top: -200px;
+}
+@media only screen and (min-width : 991.98px) {
+.footer-bottom {
+    display: none;
+ }
 }
