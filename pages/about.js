@@ -24,8 +24,6 @@ const About = () => {
                                 I currently deploy my web projects with GH-Pages and Netlify. My next
                                 steps are to explore uses of different API&apos;s and become well rounded in
                                 full-stack development in the near future.</p>
-
-                                <i class="fab fa-react fa-5x"></i>
       </div>
 
   )
