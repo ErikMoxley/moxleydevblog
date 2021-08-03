@@ -8,22 +8,22 @@ export default function Footer() {
   return (
     <footer className='footer'>
       <ul>
-      <Link href='/' passHref alt=''>
+      <Link href='/' alt=''>
         <span className='profile-image'>
       <Image className='author-image' src={profilePic} alt="Picture of the author" 
                   width={100}
                   height={100}/>
                   </span></Link>
         <li>
-        <Link href='/about' passHref alt=''>
+        <Link href='/about' alt=''>
         <h2>About</h2>
         </Link></li>
         <li>
-        <Link href='/contact' passHref alt=''>
+        <Link href='/contact' alt=''>
         <h2>Contact</h2>
         </Link></li>
         <li>
-        <Link href='/terms' passHref alt=''>
+        <Link href='/terms' alt=''>
         <h2>Terms</h2>
         </Link></li>
           <span>
@@ -38,8 +38,8 @@ export default function Footer() {
               </li>
             </span>
             <li>
-        <p className="copyright"><h4>
-        &nbsp;&nbsp;Copyright &copy; {(new Date().getFullYear())} ErikMoxley</h4></p></li>
+        <p className="copyright">
+        &nbsp;&nbsp;Copyright &copy; {(new Date().getFullYear())} ErikMoxley</p></li>
          </span>
       </ul>
     </footer>

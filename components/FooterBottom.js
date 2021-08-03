@@ -1,6 +1,6 @@
-import Link from 'next/link'
-import Image from 'next/image'
-import profilePic from '../public/images/newprofile.png'
+// import Link from 'next/link'
+// import Image from 'next/image'
+// import profilePic from '../public/images/newprofile.png'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCss3Alt, faHtml5, faJs, faReact, faNpm  } from "@fortawesome/free-brands-svg-icons";
 
@@ -20,8 +20,8 @@ export default function FooterBottom() {
               </li>
             </span>
             <li>
-        <p className="copyright"><h4>
-        &nbsp;&nbsp;Copyright &copy; {(new Date().getFullYear())} ErikMoxley</h4></p></li>
+        <p className="copyright">
+        &nbsp;&nbsp;Copyright &copy; {(new Date().getFullYear())} ErikMoxley</p></li>
          </span>
       </ul>
     </footer>

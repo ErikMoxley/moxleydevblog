@@ -178,7 +178,7 @@ header h2 {
 
 .card-text h1 {
   padding-top: 10px;
-  font-size: 1.4em;
+  font-size: 1.3em;
   font-weight: 700;
   letter-spacing:-0.05cm;
 }
@@ -192,6 +192,7 @@ header h2 {
   .card-image {
     width: 40%;
     padding-top: 10%;
+    padding-left: 5px;
   }
 }
 
