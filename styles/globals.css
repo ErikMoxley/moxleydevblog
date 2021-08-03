@@ -376,3 +376,7 @@ text-align: center;
     padding-left: 20px;
   }
 }
+
+.hidden {
+  display: none;
+}
