@@ -45,6 +45,7 @@ const Contact = () => {
         </label> <br />
         <textarea name="message" id="yourmessage"></textarea>
       </p>
+      <div data-netlify-recaptcha="true"></div>
       <p>
         <button type="submit">Send</button>
       </p>
