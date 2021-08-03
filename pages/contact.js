@@ -6,22 +6,43 @@ const Contact = () => {
   
 <div id="contact-area">
   <div className="about-container">
-    <h2 className="block_title">Contact</h2>
-    <div className="row">
-      <div className="col-sm-6">
-        <h2 className="con-title">More Info</h2>
-        <p>Feel free to contact me via social media.</p>
-        <ul className="address">
-          <li>Greater Boston</li>
-          <li>Mobile</li>
-          <li>Gmail</li>
-        </ul>
-      </div>
-      <div className="col-sm-6">
-      <h2 className="con-title">Form</h2>
+    <div class="contact-info">
+      <h2 class="con-title">Contact</h2>
+        <p>Feel free to contact me via social media or through the working contact form built using Netlify forms with Recaptcha2.</p>
+          <ul class="address">
+            <li><span>Greater Boston, United States</span></li>
+              <li><span>
+                <a
+                  href="mailto:moxleydev@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer">Email Me via Gmail
+                </a></span></li>
+              <li><span>
+                <a href="tel:+19789358860">Call via Phone
+                </a></span></li>
+                  <li><span><a href="https://erikmoxley.com/" alt='' target="_blank" rel="noopener noreferrer">www.erikmoxley.com
+                </a></span></li>
+          </ul>
+</div>
 
-      </div>
-    </div>
+<div className="contact-form">
+  <form name="contact" method="POST" data-netlify="true">
+  <p>
+    <label>Your Name: <input type="text" name="name" /></label>   
+  </p>
+  <p>
+    <label>Your Email: <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <label>Message: <textarea name="message"></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Submit</button>
+  </p>
+</form>
+</div>
+
+
   </div>
 </div>
 
