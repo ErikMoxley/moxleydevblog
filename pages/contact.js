@@ -25,7 +25,7 @@ const Contact = () => {
           </ul>
 </div>
 
-<form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
+<form role="form" method="POST" data-netlify-recaptcha="true" data-netlify="true">
       <input type="hidden" name="form-name" value="contact" />
       <p>
         <label htmlFor="yourname">
