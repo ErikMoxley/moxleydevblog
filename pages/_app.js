@@ -16,8 +16,8 @@ function MyApp({ Component, pageProps }) {
         <Component {...pageProps} />
         </div>
       <Footer id='footer'/>
-      <FooterBottom id='footer-bottom'/>
       </div>
+      <FooterBottom id='footer-bottom'/>
       </>
   )
 }

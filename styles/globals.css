@@ -250,19 +250,19 @@ header h2 {
    }}
 @media only screen and (max-width : 992.98px) {
   .container {
-    width: 100%;
+    width: 110%;
     padding-left: 150px;
    }}
 
    @media only screen and (max-width : 900px) {
     .container {
-      width: 110%;
+      width: 100%;
      }}
 
      @media only screen and (max-width : 700px) {
       .container {
         width: 100%;
-        padding-left: 80px;
+        padding-left: 40px;
        }}
 
      @media only screen and (max-width : 575.98px) {
@@ -357,20 +357,22 @@ text-align: center;
 .footer-bottom {
   font-family: 'Noto Serif JP', serif;
   font-size: 0.3cm;
-  letter-spacing:-0.03cm;
+  letter-spacing:-0.01cm;
+  background:rgb(151, 151, 151);
   clear: both;
   position: relative;
-  width: 80%;
   height: 150px;
   margin-top: -200px;
+  width: 100%;
 }
 @media only screen and (min-width : 991.98px) {
 .footer-bottom {
     display: none;
  }
 }
+
 @media (max-width: 450px) {
-  .footer-bottom {
-    padding-left: 40px;
+  .footer-bottom li {
+    padding-left: 20px;
   }
 }
