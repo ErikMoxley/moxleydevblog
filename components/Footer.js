@@ -8,22 +8,22 @@ export default function Footer() {
   return (
     <footer className='footer'>
       <ul>
-      <Link href='/' alt=''>
+      <Link href='/' alt='' passHref>
         <span className='profile-image'>
       <Image className='author-image' src={profilePic} alt="Picture of the author" 
                   width={100}
                   height={100}/>
                   </span></Link>
         <li>
-        <Link href='/about' alt=''>
+        <Link href='/about' alt='' passHref>
         <h2>About</h2>
         </Link></li>
         <li>
-        <Link href='/contact' alt=''>
+        <Link href='/contact' alt='' passHref>
         <h2>Contact</h2>
         </Link></li>
         <li>
-        <Link href='/terms' alt=''>
+        <Link href='/terms' alt='' passHref>
         <h2>Terms</h2>
         </Link></li>
           <span>

@@ -6,10 +6,10 @@ const Contact = () => {
   
 <div id="contact-area">
   <div className="about-container">
-    <div class="contact-info">
-      <h2 class="con-title">Contact</h2>
+    <div className="contact-info">
+      <h2 className="con-title">Contact</h2>
         <p>Feel free to contact me via social media or through the working contact form built using Netlify forms with Recaptcha2.</p>
-          <ul class="address">
+          <ul className="address">
             <li><span>Greater Boston, United States</span></li>
               <li><span>
                 <a
