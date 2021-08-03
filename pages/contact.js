@@ -25,6 +25,7 @@ const Contact = () => {
 </div>
 
 <form name="contact" method="POST" data-netlify="true">
+<input type="hidden" name="form-name" value="contact" />
 <p className="hidden">
     <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
   </p>
@@ -47,7 +48,7 @@ const Contact = () => {
         <textarea name="message" id="yourmessage"></textarea>
       </p>
       <p>
-        <button type="submit">Send</button>
+        <button type="submit">Submit</button>
       </p>
     </form>
 
