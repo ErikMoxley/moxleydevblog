@@ -6,7 +6,7 @@ export default function Header() {
       <ul className='nav-ul'>
         <span className='header-links'>
         <li className='nav-li'>
-        <Link href='/personal' alt='' passHref>
+        <Link href='/' alt='' passHref>
         <h2 className='header-a'>Blog</h2>
         </Link></li>
         <li className='nav-li'>
