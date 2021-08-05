@@ -332,6 +332,11 @@ text-align: center;
   padding: 50px;
   background-color: rgb(238, 238, 238);
 }
+@media only screen and (max-width : 991.98px) {
+  .about-container {
+    padding: 10px;
+  }
+}
 
 .copyright {
   font-size: 12px;
@@ -373,7 +378,7 @@ text-align: center;
   background:rgb(70, 70, 70);
   clear: both;
   position: relative;
-  height: 160px;
+  height: 180px;
   margin-top: -200px;
   width: 100%;
 }
@@ -393,12 +398,28 @@ text-align: center;
   display: none;
 }
 
+.contact-info a {
+  letter-spacing:-0.001cm;
+}
+
+#yourname, #youremail{
+  width: 220px;
+}
+
+#yourmessage {
+  width: 240px;
+  height: 100px;
+  margin: auto;
+  position: relative;
+}
+
 .footer-container {
   display: flex;
+  justify-content: center;
 }
 
 .footer-nav {
-  flex-basis: 160px;
+  flex-basis: 180px;
   height: 100px;
   margin: 7px;
 }

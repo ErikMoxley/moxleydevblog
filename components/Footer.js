@@ -22,10 +22,6 @@ export default function Footer() {
         <Link href='/contact' alt='' passHref>
         <h2>Contact</h2>
         </Link></li>
-        <li>
-        <Link href='/terms' alt='' passHref>
-        <h2>Terms</h2>
-        </Link></li>
           <span>
             <li className="made-with">This blog was made with NextJS plus:</li>
             <span>

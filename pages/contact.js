@@ -9,8 +9,10 @@ const Contact = () => {
       <h2 className="con-title">Contact</h2>
         <p>Feel free to contact me via social media or through the working contact form built using Netlify forms.</p>
           <ul className="address">
-            <li><span>Greater Boston, United States</span></li>
-              <li><span>
+          <a href='https://goo.gl/maps/f3D1vfaadg7MvoC66' alt='' target="_blank" rel="noopener noreferrer">
+            <li>Greater Boston, United States</li></a>
+            <li>
+              <span>
                 <a
                   href="mailto:moxleydev@gmail.com"
                   target="_blank"
@@ -32,19 +34,19 @@ const Contact = () => {
       <p>
         <label htmlFor="yourname">
           Your Name:
-        </label> <br />
+        </label><br/>
         <input type="text" name="name" id="yourname" />
       </p>
       <p>
         <label htmlFor="youremail">
           Your Email:
-        </label> <br />
+        </label><br/>
         <input type="email" name="email" id="youremail" />
       </p>
       <p>
         <label htmlFor="yourmessage">
           Message:
-        </label> <br />
+        </label><br/>
         <textarea name="message" id="yourmessage"></textarea>
       </p>
       <p>
