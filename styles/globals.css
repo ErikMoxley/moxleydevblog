@@ -277,7 +277,7 @@ header h2 {
 
      @media only screen and (max-width : 575.98px) {
       .container {
-        width: 98%;
+        width: 95%;
         padding-left: 5px;
         padding-right: 0px;
         margin: 0;
@@ -398,6 +398,7 @@ text-align: center;
   font-size: 0.3cm;
   letter-spacing: -0.001cm;
   background:rgb(70, 70, 70);
+  box-shadow: 0 50vh 0 50vh rgb(70, 70, 70);
   clear: both;
   position: relative;
   height: 180px;
