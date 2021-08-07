@@ -412,8 +412,14 @@ text-align: center;
 }
 
 @media (max-width: 450px) {
+  .footer-bottom {
+    width: 90%;
+  }
+}
+
+@media (max-width: 450px) {
   .footer-bottom li {
-    padding-left: 0px;
+    padding-left: 15px;
   }
 }
 
@@ -445,6 +451,7 @@ text-align: center;
   flex-basis: 180px;
   height: 100px;
   margin: 7px;
+  
 }
 
 .footer-nav a {
