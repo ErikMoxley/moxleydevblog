@@ -413,7 +413,7 @@ text-align: center;
 
 @media (max-width: 450px) {
   .footer-bottom li {
-    padding-left: 15px;
+    padding-left: 0px;
   }
 }
 
