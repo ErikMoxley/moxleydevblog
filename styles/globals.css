@@ -95,6 +95,9 @@ header h2 {
   background: rgb(185, 185, 185);
   transition-duration: 0.4s;
 }
+@media (hover: hover) and (pointer: fine) {
+  a:hover { color: rgb(185, 185, 185) }
+}
 
 @media (max-width: 650px) {
   .header-links h2, a{
