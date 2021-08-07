@@ -8,13 +8,13 @@
 }
 
 html {
+  width: 95%;
   overflow-y: scroll;
-  overflow-x: hidden;
 }
 
 body {
+  width: 95%;
   font-family: 'Martel Sans', sans-serif;
-  overflow-x: hidden;
 }
 
 p {
