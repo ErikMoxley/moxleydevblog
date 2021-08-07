@@ -22,7 +22,9 @@ p {
 
 a {
   text-decoration: none;
-  color: #333;
+  color: rgb(18, 70, 90);
+  font-weight: 700;
+
 }
 
 img {
@@ -158,6 +160,7 @@ header h2 {
 }
 .card p {
   font-size: 0.4cm;
+  font-weight: 100;
   letter-spacing: 0.01cm;
 }
 
@@ -232,9 +235,13 @@ header h2 {
   transition: ease all .5s;
 }
 
+.container p {
+ font-size: 12px;
+}
+
 @media only screen and (max-width : 2200px) {
   .container {
-    width: 35%;
+    width: 40%;
     padding-left: 20px;
     padding-right: 20px;
    }}
@@ -268,11 +275,16 @@ header h2 {
      @media only screen and (max-width : 575.98px) {
       .container {
         width: 100%;
-        padding-left: 10px;
+        padding-left: 0px;
         padding-right: 0px;
         margin: 0;
-        font-size: 0.3cm;
+        font-size: 0.25cm;
        }}
+
+       @media only screen and (max-width : 575.98px) {
+        .container p {
+          font-size: 0.3cm;
+         }}
 
 .content {
   padding-top: 90px;
@@ -284,7 +296,7 @@ header h2 {
 
    @media only screen and (max-width : 700px) {
     .content {
-      width: 95%;
+      width: 100%;
      }}
 
 .footer {  
@@ -302,13 +314,20 @@ header h2 {
   z-index: 99;
   transition: ease all .5s;
 }
+
+@media only screen and (max-width : 2000px) {
+  .footer {
+    left: 62%;
+  }}
+
 @media only screen and (max-width : 1800px) {
   .footer {
-    left: 64%;
+    left: 66%;
   }}
+
   @media only screen and (max-width : 1400px) {
     .footer {
-      left: 69%;
+      left: 70%;
     }}
 
 .footer h2 {
@@ -403,11 +422,11 @@ text-align: center;
 }
 
 #yourname, #youremail{
-  width: 220px;
+  width: 390px;
 }
 
 #yourmessage {
-  width: 240px;
+  width: 390px;
   height: 100px;
   margin: auto;
   position: relative;
