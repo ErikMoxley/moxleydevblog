@@ -96,7 +96,7 @@ header h2 {
   transition-duration: 0.4s;
 }
 @media (hover: hover) and (pointer: fine) {
-  a:hover { color: rgb(185, 185, 185)  }
+  a:hover { color: rgb(0, 0, 0)  }
 }
 
 @media (max-width: 650px) {
@@ -197,6 +197,7 @@ header h2 {
   display: inline-block;
   width: 40%;
   transition: ease all .5s;
+  padding: 5px;
 }
 @media (max-width: 850px) {
   .card-image {
