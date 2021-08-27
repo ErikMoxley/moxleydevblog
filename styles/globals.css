@@ -148,7 +148,8 @@ header h2 {
 .btn-back {
   background: #f4f4f4;
   color: #000;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
+  margin-left: 5px;
 }
 
 .posts {
@@ -271,13 +272,13 @@ header h2 {
 
    @media only screen and (max-width : 900px) {
     .container {
-      width: 100%;
+      width: 110%;
      }}
 
      @media only screen and (max-width : 700px) {
       .container {
         width: 100%;
-        padding-left: 40px;
+        padding-left: 20px;
        }}
 
      @media only screen and (max-width : 575.98px) {
