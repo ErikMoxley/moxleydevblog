@@ -57,7 +57,7 @@ header h2 {
   font-family: 'Noto Serif JP', serif;
   font-size: 2em;
   font-weight: 600;
-  letter-spacing:-0.06cm;
+  letter-spacing:-0.03cm;
 }
 
 .nav-ul {
@@ -102,7 +102,7 @@ header h2 {
 @media (max-width: 650px) {
   .header-links h2, a{
     font-size: 18px;
-    letter-spacing: -0.05cm;
+    letter-spacing: -0.03cm;
     padding-left: 0;
     transition: ease all .5s;
   }
@@ -110,7 +110,7 @@ header h2 {
 @media (max-width: 450px) {
   .header-links h2, a{
     font-size: 16px;
-    letter-spacing: -0.05cm;
+    letter-spacing: -0.03cm;
     padding-left: 0;
     transition: ease all .5s;
   }
@@ -191,7 +191,7 @@ header h2 {
   padding-top: 10px;
   font-size: 1.3em;
   font-weight: 700;
-  letter-spacing:-0.05cm;
+  letter-spacing:-0.01cm;
 }
 
 .card-image {
@@ -313,7 +313,7 @@ header h2 {
   padding-top: 100px;
   font-family: 'Noto Serif JP', serif;
   font-size: 0.3cm;
-  letter-spacing:-0.03cm;
+  letter-spacing:-0.02cm;
   font-weight: 100;
   /* background-color: rgb(109, 109, 109); */
   color: #333;
