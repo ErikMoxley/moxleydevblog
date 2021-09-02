@@ -4,14 +4,13 @@ import matter from 'gray-matter'
 import Head from 'next/head'
 import Post from '../components/Post'
 import { sortByDate } from '../utils'
-import nextjsimg from '../public/images/nextjs.png'
 
 export default function Home({ posts }) {
   return (
     <div>
       <Head>
         <title>Erik Moxley</title>
-        <meta name="image" property="og:image" content={nextjsimg} />
+        <meta name="image" property="og:image" content="https://erikmoxley.com/assets/images/nextjs.png" />
       </Head>
 
       <div className='posts'>
