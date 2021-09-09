@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import profilePic from '../public/images/newprofile.png'
+import profilePic from '../public/images/newprofile.jpg'
 
 export default function Post({ post }) {
   return (
