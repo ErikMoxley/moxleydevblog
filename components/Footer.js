@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import profilePic from '../public/images/newprofile.png'
+import profilePic from '../public/images/newprofile.jpg'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCss3Alt, faHtml5, faJs, faReact, faNpm  } from "@fortawesome/free-brands-svg-icons";
 
