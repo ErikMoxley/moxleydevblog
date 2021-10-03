@@ -10,7 +10,7 @@ export default function Home({ posts }) {
     <div>
       <Head>
         <title>Erik Moxley</title>
-        <meta name="image" property="og:image" content="https://i.imgur.com/Bnx9G4W.png" />
+        <meta name="image" property="og:image" content="https://github.com/ErikMoxley/erik-moxley/blob/main/src/assets/images/nextjs.png" />
       </Head>
 
       <div className='posts'>
