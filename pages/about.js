@@ -1,5 +1,3 @@
-// import Link from 'next/link'
-// import profilePic from '../public/images/newprofile.png'
 
 const About = () => {
   return (

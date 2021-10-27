@@ -43,7 +43,7 @@ img {
 
 header {
   background: rgb(18, 70, 90);
-  color: rgb(255, 255, 255);
+  color: rgb(240, 240, 240);
   padding: 15px;
   width: 100%;
   height: 75px;
@@ -78,7 +78,7 @@ header h2 {
 }
 
 .header-a {
-  color:rgb(255, 255, 255);
+  color:rgb(240, 240, 240);
   display:inline-block;
   padding: 8px;
 }
@@ -123,7 +123,7 @@ header h2 {
 
 .btn {
   display: inline-block;
-  color: #fff;
+  color: rgb(185, 185, 185);
   border: none;
   padding: 8px 16px;
   border-radius: 5px;
@@ -358,7 +358,7 @@ text-align: center;
 .about-container {
   font-size: 13px;
   padding: 50px;
-  background-color: rgb(238, 238, 238);
+  background-color: rgb(185, 185, 185);
 }
 @media only screen and (max-width : 991.98px) {
   .about-container {
@@ -399,7 +399,7 @@ text-align: center;
 }
 
 .footer-bottom {
-  color: rgb(255, 255, 255);
+  color: rgb(240, 240, 240);
   font-family: 'Noto Serif JP', serif;
   font-size: 0.3cm;
   letter-spacing: -0.001cm;
@@ -455,7 +455,7 @@ text-align: center;
 }
 
 .footer-nav a {
-  color: rgb(255, 255, 255);
+  color: rgb(240, 240, 240);
   font-family: 'Noto Serif JP', serif;
   font-size: 0.4cm;
   letter-spacing:-0.001cm;
