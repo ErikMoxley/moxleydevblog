@@ -124,7 +124,7 @@ header h2 {
 
 .btn {
   display: inline-block;
-  color: rgb(185, 185, 185);
+  color: rgb(114, 114, 114);
   border: none;
   padding: 8px 16px;
   border-radius: 5px;
@@ -142,12 +142,13 @@ header h2 {
 
 .btn:hover {
   transform: scale();
-  background: rgb(133, 133, 133);
+  background: rgb(58, 58, 58);
+  color: white;
   transition-duration: 0.4s;
 }
 
 .btn-back {
-  background: #f4f4f4;
+  background: #949494;
   color: #000;
   margin-bottom: 15px;
   margin-left: 5px;
